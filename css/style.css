@@ -1,0 +1,44 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background: #FFF5F7;
+    color: #321044;
+    overflow-x: hidden;
+}
+
+/* Custom CSS */
+a,
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.btn-danger {
+    background: #F52D78;
+    border-color: #f52d78;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.btn-danger:hover {
+    color: #FFFFFF;
+    background-color: #321044;
+    border-color: #321044;
+}
