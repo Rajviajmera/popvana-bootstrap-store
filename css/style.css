@@ -77,3 +77,68 @@ p {
 #header .navbar-toggler:focus {
     box-shadow: none;
 }
+
+
+/* Home section: space below fixed navbar */
+#home {
+    padding-top: 90px;
+}
+
+
+
+/* Home CSS */
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% center;
+    background-color: #FFF5F7;
+    min-height: 500px;
+    position: relative;
+}
+.home .home-banner-1{
+    background-image:url("../images/slider1.png");
+}
+.home .home-banner-2{
+    background-image:url("../images/slider2.png");
+}
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+}
+.home .home-banner .home-banner-textn h1{
+    font-size: 96px;
+}
+.home .carousel-indicators [data-bs-target]{
+    background-color: #9c1e24;
+    width: 45px;
+    height: 5px;
+}
+.home .carousel-control-prev-icon,
+.home .carousel-control-next-icon {
+    background-image: none !important;
+    background-color: transparent;
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .carousel-control-prev-icon::after {
+    content: "‹";
+    color: #b5181f;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.home .carousel-control-next-icon::after {
+    content: "›";
+    color: #b5181f;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1;
+}
