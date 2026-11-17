@@ -230,3 +230,23 @@ p {
     border-color: #a13a2d;
     background-color: #a13a2d;
 }
+/* Center the middle column's two offers */
+.offers .row {
+    align-items: center;
+}
+
+.offers .col-lg-4:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.offers .offer-link {
+    display: block;
+    text-decoration: none;
+}
+
+.offers .offer-box {
+    width: 100%;
+}
