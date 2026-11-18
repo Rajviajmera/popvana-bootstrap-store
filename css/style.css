@@ -250,3 +250,114 @@ p {
 .offers .offer-box {
     width: 100%;
 }
+
+/* Product CSS */
+.products{
+    padding-top: 140px;
+}
+.headline h2::before{
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #a13a2d;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.products a{
+    text-decoration: none;
+    color: black;
+}
+.product-list .product-image img{
+    transition: all 500ms ease-in-out;
+}
+.product-list .product-image .product-image-secondary{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.product-list .product-image:hover .product-image-secondary{
+    opacity: 1;
+}
+.product-list .product-image .sale{
+    background: #a13a2d;
+    border-radius: 6px;
+    color: #f5f0f0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 2px 13px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 16px;
+    top: 20px;
+    z-index: 99;    
+}
+.product-list .product-name h3{
+    font-size: 18px;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+.product-list .product-name h3:hover{
+    color: #a13a2d;
+}
+.product-list .product-name .amount{
+    color: #a13a2d;
+    font-weight: 500; 
+}
+.product-list .product-name .amount del{
+    color: gray;
+}
+.product-list .product-name .ti-star{
+    color: gray;
+}
+.product-list .product-name .ti-star .active{
+    color: #a13a2d;
+}
+.product-list .product-name .add_to_card{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.product-list .product-name .add_to_card:hover{
+    color: #a13a2d; 
+}
+.products .up_to_off{
+    position: relative;
+}
+.products .up_to_off::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+.products .up_to_off img{
+    transition: 0.5s;
+}
+.products .up_to_off:hover img{
+    transform: scale(1.1);
+}
+.products .up_to_off h2{
+    color: #f5f0f0;
+    font-size: 26;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
