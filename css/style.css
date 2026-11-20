@@ -400,3 +400,17 @@ p {
     color: gray;
     font-size: 16px;
 }
+.special .special-img span{
+    background: #a13a2d;
+    border-radius: 5px;
+    color: #f5f0f0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    z-index: 99;
+}
