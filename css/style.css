@@ -491,3 +491,37 @@ p {
 .testimonial .carousel-control-next{
     right: -140px;
 }
+/* Contact CSS */
+.contact{
+    padding: 64px 0;
+    background-color: #fcfafa; 
+}
+.contact .info li p a{
+    font-size: 16px;
+    display: inline-block;
+    margin: 12px 0;
+    color: black;
+}
+.contact .form-group{
+    margin-bottom: 24px;
+}
+.contact .form-control{
+    height: 60px;
+    padding: 6px 18px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 2px 19px 0 rgb(0 0 0 / 12%);
+}
+.contact .textarea{
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px 19px;
+    border: none;
+    font-size: 16px;
+    margin-top: 6px;
+    box-shadow: 0 2px 19px 0 rgb(0 0 0 / 12%); 
+}
+.contact .textarea:focus{
+    outline: none;
+    border: none;
+}
