@@ -525,3 +525,36 @@ p {
     outline: none;
     border: none;
 }
+
+
+/* Footer CSS */
+.copyright{
+    background: #f55e51;
+}
+.copyright p,
+.copyright a{
+    color: #f5f0f0;
+}
+
+/* Scroll Back To Top */
+#scrollUp {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 42px;
+    width: 40px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    background: #f23333;
+}
+#scrollUp span{
+    line-height: 40px;
+}
+#scrollUp.scrollActive{
+    display: block;
+}
