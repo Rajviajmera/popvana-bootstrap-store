@@ -1,0 +1,133 @@
+
+/* Mobile Navbar Toggler */
+#header .navbar-toggler {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Hamburger Icon */
+#header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(20,20,20,0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 1030px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+
+    /* Offer CSS */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 48px;
+    }
+
+
+    /* Special CSS */
+    .special .countdown-container .countdown-counter li{
+        padding: 24px 16px;
+    }
+}
+@media (max-width:991px){
+    /* Home CSS */
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, -50%);
+    }
+
+
+    /* Special CSS */
+    .special .countdown-container{
+        padding-top: 16px;
+        padding-bottom: 80px;
+    }
+
+    /* Testimonal CSS */
+    .testimonial .carousel-control-prev{
+        left: -28px;
+    }
+    .testimonial .carousel-control-next{
+        right: -28px;
+    }
+
+
+}
+@media (max-width:767px){
+    /* Home CSS */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 40px;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 22px;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 8px 24px;
+    }
+    .home .slider-icon{
+        font-size: 30px;
+    }
+    
+
+    /* Product CSS */
+    .products .up_to_off h2{
+        font-size: 12px;
+    }
+
+    /* Special CSS */
+    .special{
+        padding: 64px 0;
+    }
+    .special .countdown-container .countdown-counter li{
+        padding: 16px;
+        width: 20%;
+    }
+
+
+    /* Testimonal CSS */
+    .testimonial .testimonial-wrapper{
+        padding: 16px;
+    }
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next{
+        display: none;
+    }
+
+
+}    
+
+@media (max-width: 330px){
+    /* Home CSS */
+    .home .home-banner .home-banner-text h2{
+        font-size: 16px;
+    }
+
+
+
+    /* Product CSS */
+    .products .up_to_off h2{
+        font-size: 9px;
+    }
+}
